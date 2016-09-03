@@ -15,6 +15,8 @@
 		1601822E1D7AB4B400868B8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1601822C1D7AB4B400868B8F /* LaunchScreen.storyboard */; };
 		160182391D7AB4B500868B8F /* logoFlyWithViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 160182381D7AB4B500868B8F /* logoFlyWithViewControllerTests.m */; };
 		160182441D7AB4B500868B8F /* logoFlyWithViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 160182431D7AB4B500868B8F /* logoFlyWithViewControllerUITests.m */; };
+		160182531D7AB4E800868B8F /* LogoFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 160182521D7AB4E800868B8F /* LogoFlyView.m */; };
+		160182571D7AB50300868B8F /* swift-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 160182551D7AB50300868B8F /* swift-white.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		1601823F1D7AB4B500868B8F /* logoFlyWithViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = logoFlyWithViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		160182431D7AB4B500868B8F /* logoFlyWithViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = logoFlyWithViewControllerUITests.m; sourceTree = "<group>"; };
 		160182451D7AB4B500868B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160182511D7AB4E800868B8F /* LogoFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogoFlyView.h; sourceTree = "<group>"; };
+		160182521D7AB4E800868B8F /* LogoFlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoFlyView.m; sourceTree = "<group>"; };
+		160182551D7AB50300868B8F /* swift-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swift-white.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		1601821D1D7AB4B400868B8F /* logoFlyWithViewController */ = {
 			isa = PBXGroup;
 			children = (
+				160182551D7AB50300868B8F /* swift-white.png */,
 				160182211D7AB4B400868B8F /* AppDelegate.h */,
 				160182221D7AB4B400868B8F /* AppDelegate.m */,
 				160182241D7AB4B400868B8F /* ViewController.h */,
@@ -110,6 +116,8 @@
 				1601822C1D7AB4B400868B8F /* LaunchScreen.storyboard */,
 				1601822F1D7AB4B400868B8F /* Info.plist */,
 				1601821E1D7AB4B400868B8F /* Supporting Files */,
+				160182511D7AB4E800868B8F /* LogoFlyView.h */,
+				160182521D7AB4E800868B8F /* LogoFlyView.m */,
 			);
 			path = logoFlyWithViewController;
 			sourceTree = "<group>";
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				160182571D7AB50300868B8F /* swift-white.png in Resources */,
 				1601822E1D7AB4B400868B8F /* LaunchScreen.storyboard in Resources */,
 				1601822B1D7AB4B400868B8F /* Assets.xcassets in Resources */,
 				160182291D7AB4B400868B8F /* Main.storyboard in Resources */,
@@ -273,6 +282,7 @@
 				160182261D7AB4B400868B8F /* ViewController.m in Sources */,
 				160182231D7AB4B400868B8F /* AppDelegate.m in Sources */,
 				160182201D7AB4B400868B8F /* main.m in Sources */,
+				160182531D7AB4E800868B8F /* LogoFlyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
