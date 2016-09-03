@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		160182201D7AB4B400868B8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1601821F1D7AB4B400868B8F /* main.m */; };
+		160182231D7AB4B400868B8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 160182221D7AB4B400868B8F /* AppDelegate.m */; };
+		160182261D7AB4B400868B8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160182251D7AB4B400868B8F /* ViewController.m */; };
+		160182291D7AB4B400868B8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160182271D7AB4B400868B8F /* Main.storyboard */; };
+		1601822B1D7AB4B400868B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1601822A1D7AB4B400868B8F /* Assets.xcassets */; };
+		1601822E1D7AB4B400868B8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1601822C1D7AB4B400868B8F /* LaunchScreen.storyboard */; };
+		160182391D7AB4B500868B8F /* logoFlyWithViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 160182381D7AB4B500868B8F /* logoFlyWithViewControllerTests.m */; };
+		160182441D7AB4B500868B8F /* logoFlyWithViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 160182431D7AB4B500868B8F /* logoFlyWithViewControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		160182351D7AB4B500868B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 160182131D7AB4B400868B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1601821A1D7AB4B400868B8F;
+			remoteInfo = logoFlyWithViewController;
+		};
+		160182401D7AB4B500868B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 160182131D7AB4B400868B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1601821A1D7AB4B400868B8F;
+			remoteInfo = logoFlyWithViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1601821B1D7AB4B400868B8F /* logoFlyWithViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = logoFlyWithViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1601821F1D7AB4B400868B8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		160182211D7AB4B400868B8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		160182221D7AB4B400868B8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		160182241D7AB4B400868B8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		160182251D7AB4B400868B8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		160182281D7AB4B400868B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1601822A1D7AB4B400868B8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1601822D1D7AB4B400868B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1601822F1D7AB4B400868B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160182341D7AB4B500868B8F /* logoFlyWithViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = logoFlyWithViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		160182381D7AB4B500868B8F /* logoFlyWithViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = logoFlyWithViewControllerTests.m; sourceTree = "<group>"; };
+		1601823A1D7AB4B500868B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1601823F1D7AB4B500868B8F /* logoFlyWithViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = logoFlyWithViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		160182431D7AB4B500868B8F /* logoFlyWithViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = logoFlyWithViewControllerUITests.m; sourceTree = "<group>"; };
+		160182451D7AB4B500868B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		160182181D7AB4B400868B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160182311D7AB4B500868B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601823C1D7AB4B500868B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		160182121D7AB4B400868B8F = {
+			isa = PBXGroup;
+			children = (
+				1601821D1D7AB4B400868B8F /* logoFlyWithViewController */,
+				160182371D7AB4B500868B8F /* logoFlyWithViewControllerTests */,
+				160182421D7AB4B500868B8F /* logoFlyWithViewControllerUITests */,
+				1601821C1D7AB4B400868B8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1601821C1D7AB4B400868B8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1601821B1D7AB4B400868B8F /* logoFlyWithViewController.app */,
+				160182341D7AB4B500868B8F /* logoFlyWithViewControllerTests.xctest */,
+				1601823F1D7AB4B500868B8F /* logoFlyWithViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1601821D1D7AB4B400868B8F /* logoFlyWithViewController */ = {
+			isa = PBXGroup;
+			children = (
+				160182211D7AB4B400868B8F /* AppDelegate.h */,
+				160182221D7AB4B400868B8F /* AppDelegate.m */,
+				160182241D7AB4B400868B8F /* ViewController.h */,
+				160182251D7AB4B400868B8F /* ViewController.m */,
+				160182271D7AB4B400868B8F /* Main.storyboard */,
+				1601822A1D7AB4B400868B8F /* Assets.xcassets */,
+				1601822C1D7AB4B400868B8F /* LaunchScreen.storyboard */,
+				1601822F1D7AB4B400868B8F /* Info.plist */,
+				1601821E1D7AB4B400868B8F /* Supporting Files */,
+			);
+			path = logoFlyWithViewController;
+			sourceTree = "<group>";
+		};
+		1601821E1D7AB4B400868B8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1601821F1D7AB4B400868B8F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		160182371D7AB4B500868B8F /* logoFlyWithViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				160182381D7AB4B500868B8F /* logoFlyWithViewControllerTests.m */,
+				1601823A1D7AB4B500868B8F /* Info.plist */,
+			);
+			path = logoFlyWithViewControllerTests;
+			sourceTree = "<group>";
+		};
+		160182421D7AB4B500868B8F /* logoFlyWithViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				160182431D7AB4B500868B8F /* logoFlyWithViewControllerUITests.m */,
+				160182451D7AB4B500868B8F /* Info.plist */,
+			);
+			path = logoFlyWithViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1601821A1D7AB4B400868B8F /* logoFlyWithViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160182481D7AB4B500868B8F /* Build configuration list for PBXNativeTarget "logoFlyWithViewController" */;
+			buildPhases = (
+				160182171D7AB4B400868B8F /* Sources */,
+				160182181D7AB4B400868B8F /* Frameworks */,
+				160182191D7AB4B400868B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = logoFlyWithViewController;
+			productName = logoFlyWithViewController;
+			productReference = 1601821B1D7AB4B400868B8F /* logoFlyWithViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		160182331D7AB4B500868B8F /* logoFlyWithViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1601824B1D7AB4B500868B8F /* Build configuration list for PBXNativeTarget "logoFlyWithViewControllerTests" */;
+			buildPhases = (
+				160182301D7AB4B500868B8F /* Sources */,
+				160182311D7AB4B500868B8F /* Frameworks */,
+				160182321D7AB4B500868B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				160182361D7AB4B500868B8F /* PBXTargetDependency */,
+			);
+			name = logoFlyWithViewControllerTests;
+			productName = logoFlyWithViewControllerTests;
+			productReference = 160182341D7AB4B500868B8F /* logoFlyWithViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1601823E1D7AB4B500868B8F /* logoFlyWithViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1601824E1D7AB4B500868B8F /* Build configuration list for PBXNativeTarget "logoFlyWithViewControllerUITests" */;
+			buildPhases = (
+				1601823B1D7AB4B500868B8F /* Sources */,
+				1601823C1D7AB4B500868B8F /* Frameworks */,
+				1601823D1D7AB4B500868B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				160182411D7AB4B500868B8F /* PBXTargetDependency */,
+			);
+			name = logoFlyWithViewControllerUITests;
+			productName = logoFlyWithViewControllerUITests;
+			productReference = 1601823F1D7AB4B500868B8F /* logoFlyWithViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		160182131D7AB4B400868B8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王奥东";
+				TargetAttributes = {
+					1601821A1D7AB4B400868B8F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					160182331D7AB4B500868B8F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1601821A1D7AB4B400868B8F;
+					};
+					1601823E1D7AB4B500868B8F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1601821A1D7AB4B400868B8F;
+					};
+				};
+			};
+			buildConfigurationList = 160182161D7AB4B400868B8F /* Build configuration list for PBXProject "logoFlyWithViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 160182121D7AB4B400868B8F;
+			productRefGroup = 1601821C1D7AB4B400868B8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1601821A1D7AB4B400868B8F /* logoFlyWithViewController */,
+				160182331D7AB4B500868B8F /* logoFlyWithViewControllerTests */,
+				1601823E1D7AB4B500868B8F /* logoFlyWithViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		160182191D7AB4B400868B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1601822E1D7AB4B400868B8F /* LaunchScreen.storyboard in Resources */,
+				1601822B1D7AB4B400868B8F /* Assets.xcassets in Resources */,
+				160182291D7AB4B400868B8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160182321D7AB4B500868B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601823D1D7AB4B500868B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		160182171D7AB4B400868B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160182261D7AB4B400868B8F /* ViewController.m in Sources */,
+				160182231D7AB4B400868B8F /* AppDelegate.m in Sources */,
+				160182201D7AB4B400868B8F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160182301D7AB4B500868B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160182391D7AB4B500868B8F /* logoFlyWithViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601823B1D7AB4B500868B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160182441D7AB4B500868B8F /* logoFlyWithViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		160182361D7AB4B500868B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1601821A1D7AB4B400868B8F /* logoFlyWithViewController */;
+			targetProxy = 160182351D7AB4B500868B8F /* PBXContainerItemProxy */;
+		};
+		160182411D7AB4B500868B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1601821A1D7AB4B400868B8F /* logoFlyWithViewController */;
+			targetProxy = 160182401D7AB4B500868B8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		160182271D7AB4B400868B8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				160182281D7AB4B400868B8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1601822C1D7AB4B400868B8F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1601822D1D7AB4B400868B8F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		160182461D7AB4B500868B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		160182471D7AB4B500868B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		160182491D7AB4B500868B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = logoFlyWithViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aodong.logoFlyWithViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1601824A1D7AB4B500868B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = logoFlyWithViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aodong.logoFlyWithViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1601824C1D7AB4B500868B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = logoFlyWithViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aodong.logoFlyWithViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/logoFlyWithViewController.app/logoFlyWithViewController";
+			};
+			name = Debug;
+		};
+		1601824D1D7AB4B500868B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = logoFlyWithViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aodong.logoFlyWithViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/logoFlyWithViewController.app/logoFlyWithViewController";
+			};
+			name = Release;
+		};
+		1601824F1D7AB4B500868B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = logoFlyWithViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aodong.logoFlyWithViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = logoFlyWithViewController;
+			};
+			name = Debug;
+		};
+		160182501D7AB4B500868B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = logoFlyWithViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aodong.logoFlyWithViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = logoFlyWithViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		160182161D7AB4B400868B8F /* Build configuration list for PBXProject "logoFlyWithViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160182461D7AB4B500868B8F /* Debug */,
+				160182471D7AB4B500868B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		160182481D7AB4B500868B8F /* Build configuration list for PBXNativeTarget "logoFlyWithViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160182491D7AB4B500868B8F /* Debug */,
+				1601824A1D7AB4B500868B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1601824B1D7AB4B500868B8F /* Build configuration list for PBXNativeTarget "logoFlyWithViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1601824C1D7AB4B500868B8F /* Debug */,
+				1601824D1D7AB4B500868B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1601824E1D7AB4B500868B8F /* Build configuration list for PBXNativeTarget "logoFlyWithViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1601824F1D7AB4B500868B8F /* Debug */,
+				160182501D7AB4B500868B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 160182131D7AB4B400868B8F /* Project object */;
+}
